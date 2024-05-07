@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import LoginPage from './components/Auth/LoginPage';
-import ProfilePage from './components/Auth/ProfilePage';
+import LoginPage from './LoginPage';
+import ProfilePage from './ProfilePage';
 
 const App: React.FC = () => {
   const [loggedIn, setLoggedIn] = useState(false);
