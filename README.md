@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# React App with Google Login
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application that incorporates Google login functionality and handles external links appropriately when opened within the Instagram in-app browser.
 
-## Available Scripts
+## Assignment Objective
 
-In the project directory, you can run:
+The objective of this assignment is to create a React application that:
+- Implements Google login functionality.
+- Creates a user-friendly login page with a Google login button.
+- Retrieves the user's basic profile information (e.g., name, email) and displays it on a profile page upon successful login.
+- Implements proper error handling for login failures and displays appropriate error messages to the user.
+- Ensures that when the URL is opened within the Instagram in-app browser, the link opens in the user's default browser instead of the Instagram in-app browser.
 
-### `npm start`
+## Project Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To set up the project, follow these steps:
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Google login functionality.
+- User-friendly login page with a Google login button.
+- Profile page that displays the user's basic profile information.
+- Proper error handling for login failures.
+- Handling external links to open in the user's default browser when opened within the Instagram in-app browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Submission
 
-### `npm run build`
+- **GitHub Repository:** [Add your GitHub repository link here]
+- **Deployed Application:** [Add your deployed application URL here]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Evaluation Criteria
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project will be evaluated based on the following criteria:
+- **Functionality:** The application should meet all the specified requirements and work as expected.
+- **Code Quality:** The code should be well-structured, readable, and follow best practices.
+- **User Experience:** The application should provide a smooth and intuitive user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
